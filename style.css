@@ -1,0 +1,27 @@
+body {
+    direction: rtl;
+}
+h1 {
+    color: green;
+    font-size: 20px;
+}
+.txt { background-color: plum;
+color: hotpink;
+font-weight: bold;
+}
+input[type="submit"]{ background-color: black;
+color: blanchedalmond;
+height: 40px;
+width: 270px;
+border-radius: 30px;
+background-color: green;
+color: white;
+}
+input {font-size: 24px;
+background-color: yellow;
+color: pink;
+}
+fieldset { border-color: red;
+    box-shadow:5px 5px 50px 5px rgb(24, 6, 6);
+
+}

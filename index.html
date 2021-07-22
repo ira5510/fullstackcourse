@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ira</title>
+
+</head>
+<body>
+    
+    <form action="/action_page.php" method="GET">
+        <h1>טופס למילוי עצמי</h1>
+       <fieldset>
+        <label class="txt" for="f_name" >שם פרטי</label>
+        <input type="text" name="f_name">
+        <label  class="txt" for="l_name" >שם משפחה</label>
+        <input type="text" name="l_name">
+    </fieldset>
+    <fieldset>
+        <label for="gender" >זכר </label>
+        <input type="radio" name="gender"  value="זכר">
+       
+        <label for="gender" >נקבה </label>
+        <input type="radio" name="gender"  value="נקבה">
+    </fieldset>
+    <fieldset>
+       <label for="email">e-mail</label>
+        <input type="email" name="e-mail" placeholder="ex:absd@gmail.com">
+        <label for="id">מספר ת.ז</label>
+        <input type="number" name="id" placeholder="312345678" min="100000000" max="999999999">
+
+    </fieldset>
+
+   
+    <fieldset>
+      
+       <textarea name="msg"  cols="30" rows="10">שלום </textarea>
+       <label for="msg">השאר הודעה</label>
+       <br>
+       <br>
+       
+       <input  type="submit">
+    
+    </form>
+</body>
+</html>
