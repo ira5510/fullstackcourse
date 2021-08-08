@@ -1,27 +1,136 @@
-body {
+html{
     direction: rtl;
+    font-size: 16px;
 }
-h1 {
-    color: green;
-    font-size: 20px;
-}
-.txt { background-color: plum;
-color: hotpink;
-font-weight: bold;
-}
-input[type="submit"]{ background-color: black;
-color: blanchedalmond;
-height: 40px;
-width: 270px;
-border-radius: 30px;
-background-color: green;
-color: white;
-}
-input {font-size: 24px;
-background-color: yellow;
-color: pink;
-}
-fieldset { border-color: red;
-    box-shadow:5px 5px 50px 5px rgb(24, 6, 6);
+section{
+display: flex;
+position: relative;
+background-color: rgb(9, 75, 98);
 
 }
+
+section:nth-of-type(2){
+background-color: rgb(209, 238, 243);
+
+}
+
+section:nth-of-type(3){
+    background-color: rgb(209, 238, 243);
+    }
+
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+    color: blue;
+
+}
+
+nav a:nth-of-type(2){
+    border-left: 1px ridge black ;
+    border-right: thin ridge black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.subjects span{
+    border-radius: 2px;
+    border: 1px;
+    background-color: rgb(91, 195, 219);
+    margin-left: 10px;
+    padding: 5px;
+}
+
+h1{
+margin: 0px 0px;
+}
+
+.contact a, p {
+    display: block;
+    max-width: 65vw;
+}
+
+.wraper-top{
+    background-color: rgb(9, 75, 98);
+    height: 38vh;
+    font-size: 1rem;
+    color: white;
+    margin-right: 5vw;
+}
+header{
+    background-color: rgb(209, 238, 243);
+}
+
+.tel, .mail, .linkedin{
+    color: white;
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.imeg{
+    position: absolute;
+}
+.imeg img{
+    position: absolute;
+    right: 70vw;
+    top: 2vw;
+    border-radius: 20%;
+    height: 32vh;
+}
+.imeg-up-project img, .imeg-bottom-project img{
+    border-radius: 9%;
+    height: 61%;
+    width: 26%;
+    position: absolute;
+    right: 4%;
+    top: 22%;
+    max-width: 200px;
+}
+
+.lightblu {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.sky-form{
+background-color: rgb(91, 195, 219);
+}
+
+.wraper-form{
+margin: 0 auto;
+}
+
+fieldset{
+    height: 30vh;
+    border: unset;
+}
+
+input{
+    background-color: unset;
+    border-style: none none solid none;
+}
+ form{
+    margin-right: 2vw;
+    margin-top: 4vh;
+ }
+
+ button{
+    margin-right: 32%;
+
+ }
+footer{
+    background-color: rgb(9, 75, 98);
+}
+footer p{
+    margin: unset;
+    padding: 0.5rem;
+    color: white;
+    font-size: 0.5rem;
+    margin-right: 43%;
+}
+
